@@ -1,0 +1,33 @@
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -i Create.sql
+
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC01.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC02.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC03.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC04.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC05.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC5E.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC5F.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC5G.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC5I.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC5J.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC07.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC08.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC16.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC23.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC30.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC32.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC37.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC39.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC50.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC51.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC52.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLC53.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLCA0.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLCA3.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLCA4.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLCA5.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLCA6.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLCB1.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i RLCB2.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i SLE0101.sql
+OSQL -S 10.0.20.10 -U sa -P "Let'sGo@Sql" -d PMS -i SLE0106.sql
