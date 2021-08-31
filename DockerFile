@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/aspnet
-copy . .
-ENV ASPNETCORE_URLS=http://*:5000
-ENV ASPNETCORE_SERVER_URLS=http://*:5000
+ENV ASPNETCORE_URLS=http://+:80
+copy . /App
+WORKDIR /App
 ENTRYPOINT ["dotnet", "IFS.Red.WebApi.dll"]
