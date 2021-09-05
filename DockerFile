@@ -1,5 +1,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet
 ENV ASPNETCORE_URLS=http://+:80
+ADD fullchain.pem /usr/local/share/ca-certificates/fullchain.pem
+RUN chmod 644 /usr/local/share/ca-certificates/fullchain.pem && update-ca-certificates
 copy . App/
 WORKDIR /App
 ENTRYPOINT ["dotnet", "IFS.Red.WebApi.dll"]
